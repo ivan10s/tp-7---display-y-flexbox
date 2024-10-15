@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 7 - display y flexbox</title>
+    <style>
+        .barranegra {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            width: 100%;
+        }
+
+        .container {
+            justify-content: space-between;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-between;
+            background-color: whitesmoke;
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+
+        .iconos {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        .container-image {
+            display: flex;
+            background-color: whitesmoke;
+        }
+
+        .box3 {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 45px;
+        }
+
+        .lista {
+            display: flex;
+            gap: 15px;
+            list-style: none;
+        }
+
+        .lista li {
+            border-right: 5px solid black;
+            padding-right: 15px;
+        }
+
+        .lista2 {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 20px;
+        }
+        .container-buscar {
+            display: flex;
+            justify-content: right;
+   
+        }
+        .container-buscar input {
+            height: 25px;
+            border-radius: 15px;
+        }
+        .container-buscar img {
+            height: 25px;
+        }
+    
+       
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <div class="barranegra">
+            <p style="color: white;">6 cuotas sin interes en todo el sitio</p>
+        </div>
+        <div class="box2">
+            <div>
+                <img src="f97c1ee4-0e66-4225-b378-f4ae7d491bc7___39627060035c5a0d813f57675cef86ea.svg" alt="jordan"
+                    class="iconos">
+            </div>
+            <ul class="lista">
+                <li>Suscribite</li>
+                <li>Buscar tienda</li>
+                <li>Eventos</li>
+                <li>Ayuda</li>
+            </ul>
+
+        </div>
+
+        <div class="box3">
+            <div>
+                <img src="swoosh___33f7ffaf2fc124733c2c4a60a12a1160.svg" alt="nike" class="iconos">
+            </div>
+            <nav>
+                <ul class="lista2">
+                    <li>Destacados</li>
+                    <li>Hombre</li>
+                    <li>Mujer</li>
+                    <li>Niño/a</li>
+                    <li>Accesorios</li>
+                    <li>Oportunidades</li>
+                </ul>
+            </nav>
+            <div>
+                <div class="container-buscar">
+                    <input type="text">
+                    <img src="shopping-cart.png" alt="carrito">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+</body>
+
+</html>
